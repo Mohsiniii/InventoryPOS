@@ -20,3 +20,24 @@ CREATE TABLE variants (
     [updated_at] DATETIME,
     [updated_by] INT
 );
+
+CREATE TABLE categories (
+    [category_id] INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    [name] VARCHAR(255) NOT NULL,
+    [status] VARCHAR(50) DEFAULT 'Active', -- Status field with a default value
+    [created_at] DATETIME DEFAULT GETDATE(),
+    [created_by] INT NOT NULL,
+    [updated_at] DATETIME,
+    [updated_by] INT
+);
+
+CREATE TABLE brands (
+    [brand_id] INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+    [name] VARCHAR(255) NOT NULL,
+    [status] VARCHAR(50) DEFAULT 'Active', -- Status field with a default value
+    [created_at] DATETIME DEFAULT GETDATE(),
+    [created_by] INT NOT NULL,
+    [updated_at] DATETIME,
+    [updated_by] INT
+);
+

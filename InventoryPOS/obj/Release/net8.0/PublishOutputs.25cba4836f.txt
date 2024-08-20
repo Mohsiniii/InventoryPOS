@@ -1,0 +1,13 @@
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\InventoryPOS.exe
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\appsettings.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\InventoryPOS.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\InventoryPOS.deps.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\InventoryPOS.runtimeconfig.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\InventoryPOS.pdb
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\System.Data.SqlClient.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\runtimes\win-arm64\native\sni.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\runtimes\win-x64\native\sni.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\runtimes\win-x86\native\sni.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOS\obj\Release\net8.0\PubTmp\Out\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

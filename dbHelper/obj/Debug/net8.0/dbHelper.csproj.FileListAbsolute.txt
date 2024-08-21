@@ -1,0 +1,13 @@
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\bin\Debug\net8.0\dbHelper.deps.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\bin\Debug\net8.0\dbHelper.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\bin\Debug\net8.0\dbHelper.pdb
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.csproj.AssemblyReference.cache
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.GeneratedMSBuildEditorConfig.editorconfig
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.AssemblyInfoInputs.cache
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.AssemblyInfo.cs
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.csproj.CoreCompileInputs.cache
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.sourcelink.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\refint\dbHelper.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\dbHelper.pdb
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\dbHelper\obj\Debug\net8.0\ref\dbHelper.dll

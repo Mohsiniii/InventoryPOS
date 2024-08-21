@@ -2,6 +2,7 @@
 using System.Data.SqlClient;
 using System.Reflection.Metadata.Ecma335;
 using InventoryPOS.Models;
+using System.Data;
 namespace InventoryPOS.Data
 {
     public class ProductDAL
@@ -14,6 +15,18 @@ namespace InventoryPOS.Data
         public void create()
         {
             //
+        }
+
+        public List<Product> GetAllDS()
+        {
+            dbHelper.Wrapper dw = new dbHelper.Wrapper(_connectionString);
+            DataSet ds = dw.GetDataSet("SELECT * FROM products");
+            DataTable dt = new DataTable();
+            if(ds.Tables.Count > 0)
+            {
+                dt = ds.Tables[0];
+            }
+            return null;
         }
 
         public List<Product> GettAll()

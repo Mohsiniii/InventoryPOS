@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryPOS", "InventoryPOS\InventoryPOS.csproj", "{63F25680-710B-4312-A3A6-1A721D876BE3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InventoryPOS", "InventoryPOS\InventoryPOS.csproj", "{63F25680-710B-4312-A3A6-1A721D876BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbHelper", "dbHelper\dbHelper.csproj", "{1DAE7A62-1FA9-47AE-9F25-C784B487578B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryPOSlib", "InventoryPOSlib\InventoryPOSlib.csproj", "{FE8BB91C-98A6-4E91-AA4F-0E9037BA933F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{63F25680-710B-4312-A3A6-1A721D876BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63F25680-710B-4312-A3A6-1A721D876BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63F25680-710B-4312-A3A6-1A721D876BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DAE7A62-1FA9-47AE-9F25-C784B487578B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DAE7A62-1FA9-47AE-9F25-C784B487578B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DAE7A62-1FA9-47AE-9F25-C784B487578B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DAE7A62-1FA9-47AE-9F25-C784B487578B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE8BB91C-98A6-4E91-AA4F-0E9037BA933F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE8BB91C-98A6-4E91-AA4F-0E9037BA933F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE8BB91C-98A6-4E91-AA4F-0E9037BA933F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE8BB91C-98A6-4E91-AA4F-0E9037BA933F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

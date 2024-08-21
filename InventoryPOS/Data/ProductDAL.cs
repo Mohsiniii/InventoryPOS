@@ -12,15 +12,33 @@ namespace InventoryPOS.Data
             _connectionString = connectionString;
         }
 
-        public void create()
+        public bool create(Product product)
         {
-            //
+            dbHelper.Wrapper dw = new dbHelper.Wrapper(_connectionString);
+            string queryString = "INSERT INTO products (name, category_id, brand_id, description, status, created_by) VALUES (@name, @categoryID, @brandID, @description, @status, @userID)";
+            try
+            {
+                var parameters = new Dictionary<string, object>
+                {
+                    { "@name", product.name },
+                    {"@categoryID", product.categoryID },
+                    {"@brandID", product.brandID },
+                    { "@description", product.description },
+                    { "@status", "ACTIVE" },
+                    { "@userID", 1 }
+                };
+                int infectedRows = dw.ExecuteNonQuery(queryString, parameters);
+                return infectedRows > 0;
+            }catch(Exception e)
+            {
+                return false;
+            }
         }
 
         public List<Product> GetAllDS()
         {
             dbHelper.Wrapper dw = new dbHelper.Wrapper(_connectionString);
-            DataSet ds = dw.GetDataSet("SELECT * FROM products");
+            DataSet ds = dw.GetDataSet("SELECT p.product_id, p.name AS product_name, c.name AS category_name, b.name AS brand_name, p.created_at, p.created_by, p.updated_at, p.updated_by FROM products p LEFT JOIN categories c ON p.category_id = c.category_id LEFT JOIN brands b ON p.brand_id = b.brand_id;");
             DataTable dt = new DataTable();
             if(ds.Tables.Count > 0)
             {

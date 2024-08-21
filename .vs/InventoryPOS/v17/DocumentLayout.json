@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\data\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\data\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\views\\product\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\data\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\data\\productdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1DAE7A62-1FA9-47AE-9F25-C784B487578B}|dbHelper\\dbHelper.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\dbhelper\\wrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1DAE7A62-1FA9-47AE-9F25-C784B487578B}|dbHelper\\dbHelper.csproj|solutionrelative:dbhelper\\wrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|d:\\academia\\training\\dot net\\projects\\inventorypos\\inventorypos\\views\\product\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{63F25680-710B-4312-A3A6-1A721D876BE3}|InventoryPOS\\InventoryPOS.csproj|solutionrelative:inventorypos\\views\\product\\all.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,67 +38,80 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Models\\Category.cs",
-              "RelativeDocumentMoniker": "InventoryPOS\\Models\\Category.cs",
-              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Models\\Category.cs",
-              "RelativeToolTip": "InventoryPOS\\Models\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
+              "DocumentIndex": 4,
+              "Title": "Wrapper.cs",
+              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\dbHelper\\Wrapper.cs",
+              "RelativeDocumentMoniker": "dbHelper\\Wrapper.cs",
+              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\dbHelper\\Wrapper.cs",
+              "RelativeToolTip": "dbHelper\\Wrapper.cs",
+              "ViewState": "AQIAAI4AAAAAAAAAAAAkwJoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T09:20:23.98Z",
+              "WhenOpened": "2024-08-21T19:04:49.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "InventoryPOS\\Models\\Product.cs",
-              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Models\\Product.cs",
-              "RelativeToolTip": "InventoryPOS\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T08:52:30.516Z",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Views\\Product\\Add.cshtml",
+              "RelativeDocumentMoniker": "InventoryPOS\\Views\\Product\\Add.cshtml",
+              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Views\\Product\\Add.cshtml",
+              "RelativeToolTip": "InventoryPOS\\Views\\Product\\Add.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDQAAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T16:35:31.731Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductDAL.cs",
-              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Data\\ProductDAL.cs",
-              "RelativeDocumentMoniker": "InventoryPOS\\Data\\ProductDAL.cs",
-              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Data\\ProductDAL.cs",
-              "RelativeToolTip": "InventoryPOS\\Data\\ProductDAL.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAYwBoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T07:20:00.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "InventoryPOS\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Controllers\\ProductController.cs",
               "RelativeToolTip": "InventoryPOS\\Controllers\\ProductController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA+wBUAAAAIAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAkwCcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-19T06:51:50.752Z",
+              "WhenOpened": "2024-08-21T16:10:58.489Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\appsettings.json",
-              "RelativeDocumentMoniker": "InventoryPOS\\appsettings.json",
-              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\appsettings.json",
-              "RelativeToolTip": "InventoryPOS\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-08-19T06:38:37.705Z",
+              "DocumentIndex": 3,
+              "Title": "ProductDAL.cs",
+              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Data\\ProductDAL.cs",
+              "RelativeDocumentMoniker": "InventoryPOS\\Data\\ProductDAL.cs",
+              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Data\\ProductDAL.cs",
+              "RelativeToolTip": "InventoryPOS\\Data\\ProductDAL.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBwAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:12:53.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "InventoryPOS\\Models\\Product.cs",
+              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Models\\Product.cs",
+              "RelativeToolTip": "InventoryPOS\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-21T16:10:41.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "All.cshtml",
+              "DocumentMoniker": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Views\\Product\\All.cshtml",
+              "RelativeDocumentMoniker": "InventoryPOS\\Views\\Product\\All.cshtml",
+              "ToolTip": "D:\\Academia\\Training\\Dot Net\\Projects\\InventoryPOS\\InventoryPOS\\Views\\Product\\All.cshtml",
+              "RelativeToolTip": "InventoryPOS\\Views\\Product\\All.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-21T16:10:30.492Z",
               "EditorCaption": ""
             }
           ]

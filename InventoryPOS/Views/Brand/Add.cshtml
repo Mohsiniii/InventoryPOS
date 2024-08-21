@@ -1,0 +1,34 @@
+﻿@model InventoryPOS.Models.Brand;
+@{
+    ViewData["Title"] = "Add Brand";
+}
+<div class="container mt-3">
+    <div class="row">
+        <div class="col-12">
+            <form class="card" asp-action="addBrand">
+                <div class="card-header">
+                    <h3 class="card-title">Add Brand</h3>
+                </div>
+                <div class="card-body">
+                    <div class="row row-cards">
+                        <div class="col-sm-6 col-md-3">
+                            <div class="mb-3">
+                                <label class="form-label">Brand Name</label>
+                                <input type="text" class="form-control" placeholder="Enter brand..." asp-for="name" required>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="mb-3 mb-0">
+                                <label class="form-label">Brand Description</label>
+                                <textarea rows="5" class="form-control" placeholder="Describe brand..." asp-for="description"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer text-end">
+                    <button type="submit" class="btn btn-primary">Add Brand</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

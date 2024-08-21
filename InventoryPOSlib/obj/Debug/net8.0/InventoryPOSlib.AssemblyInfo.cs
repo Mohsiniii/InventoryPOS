@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("InventoryPOSlib")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b45d2f60e3b04c724dd3639ae92d9a6b129746b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d6009a5dd1cb13786f5e727869d050e8bca7fe9")]
 [assembly: System.Reflection.AssemblyProductAttribute("InventoryPOSlib")]
 [assembly: System.Reflection.AssemblyTitleAttribute("InventoryPOSlib")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

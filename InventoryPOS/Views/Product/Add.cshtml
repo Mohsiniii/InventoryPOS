@@ -1,13 +1,13 @@
-﻿@*
-For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model InventoryPOS.Models.Product
+
 @{
     ViewData["Title"] = "Add Product";
 }
+
 <div class="container mt-3">
     <div class="row">
         <div class="col-12">
-            <form class="card">
+            <form class="card" asp-action="AddProduct" method="post">
                 <div class="card-header">
                     <h3 class="card-title">Add Product</h3>
                 </div>
@@ -16,25 +16,35 @@ For more information on enabling MVC for empty projects, visit https://go.micros
                         <div class="col-md-5">
                             <div class="mb-3">
                                 <label class="form-label">Product Name</label>
-                                <input type="text" class="form-control" placeholder="Enter product..." required autofocus>
+                                <input type="text" class="form-control" placeholder="Enter product..." required asp-for="name" autofocus>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <div class="mb-3">
-                                <label class="form-label">Category Name</label>
-                                <input type="text" class="form-control" placeholder="Enter category..." required>
+                                <label class="form-label">Category</label>
+                                <select class="form-control" asp-for="categoryID" required>
+                                    @foreach (var category in Model.categories)
+                                    {
+                                        <option value="@category.categoryID">@category.name</option>
+                                    }
+                                </select>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3">
                             <div class="mb-3">
-                                <label class="form-label">Brand Name</label>
-                                <input type="text" class="form-control" placeholder="Enter brand..." required>
+                                <label class="form-label">Brand</label>
+                                <select class="form-control" asp-for="brandID" required>
+                                    @foreach (var brand in Model.brands)
+                                    {
+                                        <option value="@brand.brandID">@brand.name</option>
+                                    }
+                                </select>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-4">
                             <div class="mb-3">
                                 <label class="form-label">Size/Weight</label>
-                                <input type="email" class="form-control" placeholder="Enter size/weight..." required>
+                                <input type="text" class="form-control" placeholder="Enter size/weight..." required>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-6">
@@ -46,7 +56,7 @@ For more information on enabling MVC for empty projects, visit https://go.micros
                         <div class="col-md-12">
                             <div class="mb-3 mb-0">
                                 <label class="form-label">Product Description</label>
-                                <textarea rows="5" class="form-control" placeholder="Describe product..."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Describe product..." asp-for="description"></textarea>
                             </div>
                         </div>
                     </div>

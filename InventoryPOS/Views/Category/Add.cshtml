@@ -1,13 +1,11 @@
-﻿@*
-For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model InventoryPOS.Models.Category;
 @{
     ViewData["Title"] = "Add Category";
 }
 <div class="container mt-3">
     <div class="row">
         <div class="col-12">
-            <form class="card">
+            <form class="card" asp-action="addCategory">
                 <div class="card-header">
                     <h3 class="card-title">Add Category</h3>
                 </div>
@@ -16,13 +14,13 @@ For more information on enabling MVC for empty projects, visit https://go.micros
                         <div class="col-sm-6 col-md-3">
                             <div class="mb-3">
                                 <label class="form-label">Category Name</label>
-                                <input type="text" class="form-control" placeholder="Enter category..." required>
+                                <input type="text" class="form-control" placeholder="Enter category..." asp-for="name" required>
                             </div>
                         </div>
                         <div class="col-md-12">
                             <div class="mb-3 mb-0">
                                 <label class="form-label">Category Description</label>
-                                <textarea rows="5" class="form-control" placeholder="Describe category..."></textarea>
+                                <textarea rows="5" class="form-control" placeholder="Describe category..." asp-for="description"></textarea>
                             </div>
                         </div>
                     </div>

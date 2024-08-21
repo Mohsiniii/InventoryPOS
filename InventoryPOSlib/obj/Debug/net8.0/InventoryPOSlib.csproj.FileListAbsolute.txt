@@ -1,0 +1,12 @@
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\bin\Debug\net8.0\InventoryPOSlib.deps.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\bin\Debug\net8.0\InventoryPOSlib.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\bin\Debug\net8.0\InventoryPOSlib.pdb
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\InventoryPOSlib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\InventoryPOSlib.AssemblyInfoInputs.cache
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\InventoryPOSlib.AssemblyInfo.cs
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\InventoryPOSlib.csproj.CoreCompileInputs.cache
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\InventoryPOSlib.sourcelink.json
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\InventoryPOSlib.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\refint\InventoryPOSlib.dll
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\InventoryPOSlib.pdb
+D:\Academia\Training\Dot Net\Projects\InventoryPOS\InventoryPOSlib\obj\Debug\net8.0\ref\InventoryPOSlib.dll

@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using InventoryPOS.Data;
+using InventoryPOS.Models;
 
 namespace InventoryPOS.Controllers
 {
@@ -27,7 +28,28 @@ namespace InventoryPOS.Controllers
 
         public IActionResult Add()
         {
-            return View();
+            var categories = _categoryDAL.GettAll();
+            var brands = _brandDAL.GettAll();
+            var product = new Product
+            {
+                categories = categories,
+                brands = brands
+            };
+            return View(product);
+        }
+
+        public IActionResult AddProduct(Product product)
+        {
+            ViewBag.Message = 1;
+            if (_productDAL.create(product) == true)
+            {
+                ViewBag.Message = 2;
+            }
+            else
+            {
+                ViewBag.Message = 3;
+            }
+            return RedirectToAction("All");
         }
 
         public IActionResult Edit()

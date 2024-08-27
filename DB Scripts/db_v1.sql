@@ -93,3 +93,18 @@ BEGIN
     ALTER TABLE brands
     ADD [description] VARCHAR(255);
 END
+
+IF OBJECT_ID('dbo.users', 'U') IS NULL
+BEGIN
+    CREATE TABLE dbo.users (
+        [user_id] INT PRIMARY KEY IDENTITY(1,1) NOT NULL,
+        [username] VARCHAR(255) NOT NULL UNIQUE,
+        [password] VARCHAR(255) NOT NULL,
+        [email] VARCHAR(255) NULL UNIQUE,
+        [status] VARCHAR(50) DEFAULT 'Active',
+        [created_at] DATETIME DEFAULT GETDATE(),
+        [created_by] INT,
+        [updated_at] DATETIME,
+        [updated_by] INT
+    );
+END

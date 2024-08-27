@@ -35,41 +35,39 @@ namespace InventoryPOS.Data
             }
         }
 
-        public List<Product> GetAllDS()
+        public List<Product> GetAll()
         {
             dbHelper.Wrapper dw = new dbHelper.Wrapper(_connectionString);
-            DataSet ds = dw.GetDataSet("SELECT p.product_id, p.name AS product_name, c.name AS category_name, b.name AS brand_name, p.created_at, p.created_by, p.updated_at, p.updated_by FROM products p LEFT JOIN categories c ON p.category_id = c.category_id LEFT JOIN brands b ON p.brand_id = b.brand_id;");
+            DataSet ds = dw.GetDataSet("SELECT p.product_id, p.name AS product_name, p.description as product_description, p.category_id, c.name AS category_name, p.brand_id, b.name AS brand_name, p.created_at, p.created_by, p.updated_at, p.updated_by FROM products p LEFT JOIN categories c ON p.category_id = c.category_id LEFT JOIN brands b ON p.brand_id = b.brand_id;");
             DataTable dt = new DataTable();
             if(ds.Tables.Count > 0)
             {
                 dt = ds.Tables[0];
+                List<Product> products = new List<Product>();
+                foreach (DataRow row in dt.Rows)
+                {
+                    var product = new Product
+                    {
+                        productID = Convert.ToInt32(row["product_id"]),
+                        name = row["product_name"].ToString(),
+                        category = new Category
+                        {
+                            categoryID = row["category_id"] != DBNull.Value ? Convert.ToInt32(row["category_id"]) : 0,
+                            name = row["category_name"] != DBNull.Value ? row["category_name"].ToString() : null,
+                        },
+                        brand = new Brand
+                        {
+                            brandID = row["brand_id"] != DBNull.Value ? Convert.ToInt32(row["brand_id"]) : 0,
+                            name = row["brand_name"] != DBNull.Value ? row["brand_name"].ToString() : null,
+                        },
+                        description = row["product_description"].ToString(),
+                    };
+
+                    products.Add(product);
+                }
+                return products;
             }
             return null;
-        }
-
-        public List<Product> GettAll()
-        {
-            var products = new List<Product>();
-            using (SqlConnection conn = new SqlConnection(_connectionString)) {
-                SqlCommand cmd = new SqlCommand("SELECT product_id, name, category_id, brand_id FROM products", conn);
-                conn.Open();
-                using (SqlDataReader reader = cmd.ExecuteReader())
-                {
-                    while (reader.Read()) {
-                        var product = new Product
-                        {
-                            productID = Convert.ToInt32(reader["product_id"]),
-                            name = reader["name"].ToString(),
-                            description = "",
-                            categoryID = Convert.ToInt32(reader["category_id"]),
-                            brandID = Convert.ToInt32(reader["brand_id"]),
-                        };
-                        products.Add(product);
-                    }
-                    conn.Close();
-                    return products;
-                }
-            }
         }
     }
 }

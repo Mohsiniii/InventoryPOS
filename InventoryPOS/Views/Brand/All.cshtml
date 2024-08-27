@@ -26,7 +26,10 @@
                                 <td>@brand.brandID</td>
                                 <td>@brand.name</td>
                                 <td>@brand.description</td>
-                                <td><button class="btn btn-sm btn-info">Edit</button></td>
+                                <td>
+                                    <button class="btn btn-sm btn-info">Edit</button>
+                                    <a class="btn btn-sm btn-danger" asp-controller="Brand" asp-action="Remove">Remove</a>
+                                </td>
                             </tr>
                         }
                     </tbody>

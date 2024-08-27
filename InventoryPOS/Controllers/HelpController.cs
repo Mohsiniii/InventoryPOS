@@ -2,7 +2,7 @@
 
 namespace InventoryPOS.Controllers
 {
-    public class HelpController : Controller
+    public class HelpController : BaseController
     {
         public IActionResult Index()
         {

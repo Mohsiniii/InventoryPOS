@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace InventoryPOS.Controllers
 {
-    public class BrandController : Controller
+    public class BrandController : BaseController
     {
         private BrandDAL _brandDAL;
         public BrandController(IConfiguration configuration)

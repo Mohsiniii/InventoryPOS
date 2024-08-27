@@ -27,13 +27,14 @@
                         {
                             <tr>
                                 <td>@product.name</td>
-                                <td>@product.brandID</td> <!-- Replace with actual brand name if available -->
-                                <td>@product.categoryID</td> <!-- Replace with actual category name if available -->
+                                <td>@product.brand.name</td> <!-- Replace with actual brand name if available -->
+                                <td>@product.category.name</td> <!-- Replace with actual category name if available -->
                                 <td><!-- Add Size/Weight Property if available --></td>
                                 <td><!-- Add Unit Price Property if available --></td>
                                 <td><!-- Add Stock Units Property if available --></td>
                                 <td>
                                     <a class="btn btn-sm btn-info" asp-controller="Product" asp-action="Edit" asp-route-id="@product.productID">Edit</a>
+                                    <a class="btn btn-sm btn-danger" asp-controller="Product" asp-action="Remove" asp-route-id="@product.productID">Remove</a>
                                 </td>
                             </tr>
                         }

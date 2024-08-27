@@ -4,7 +4,7 @@ using InventoryPOS.Models;
 
 namespace InventoryPOS.Controllers
 {
-    public class ProductController : Controller
+    public class ProductController : BaseController
     {
         private ProductDAL _productDAL;
         private CategoryDAL _categoryDAL;
@@ -22,7 +22,7 @@ namespace InventoryPOS.Controllers
 
         public IActionResult All()
         {
-            var products = _productDAL.GettAll();
+            var products = _productDAL.GetAll();
             return View(products);
         }
 

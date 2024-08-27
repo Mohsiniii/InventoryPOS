@@ -5,7 +5,7 @@ using Microsoft.Extensions.Configuration;
 
 namespace InventoryPOS.Controllers
 {
-    public class CategoryController : Controller
+    public class CategoryController : BaseController
     {
         private CategoryDAL _categoryDAL;
 

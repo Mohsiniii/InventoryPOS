@@ -26,7 +26,10 @@
                                 <td>@category.categoryID</td>
                                 <td>@category.name</td>
                                 <td>@category.description</td>
-                                <td><button class="btn btn-sm btn-info">Edit</button></td>
+                                <td>
+                                    <button class="btn btn-sm btn-info">Edit</button>
+                                    <a class="btn btn-sm btn-danger" asp-controller="Category" asp-action="Remove" asp-route-id="@category.categoryID">Remove</a>
+                                </td>
                             </tr>
                         }
                     </tbody>

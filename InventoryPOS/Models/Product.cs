@@ -8,7 +8,9 @@
         public int categoryID { get; set; }
         public int brandID { get; set; }
 
+        public Category category { get; set; }
         public List<Category> categories { get; set; }
+        public Brand brand { get; set; }
         public List<Brand> brands { get; set; }
     }
 }

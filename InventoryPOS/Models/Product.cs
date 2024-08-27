@@ -12,5 +12,8 @@
         public List<Category> categories { get; set; }
         public Brand brand { get; set; }
         public List<Brand> brands { get; set; }
+        public List<Variant> variants { get; set; }
+
     }
+
 }
